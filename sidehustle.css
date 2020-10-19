@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,500&family=Roboto&display=swap');
+
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+header{
+	position: sticky;
+	display: flex;
+	justify-content: space-between;
+	height: 50px;
+	padding-top: 10px;
+	background-color: black;
+	color: white;
+	opacity: 0.9;
+}
+nav, ul, a{
+	display: flex;
+	list-style-type: none;
+	text-decoration: none;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+.home-text{
+	color: white;
+	opacity: 1;
+}
+h2{
+	margin-left: 70px;
+	font-weight: bold;
+	color: white;
+}
+a{
+	color: white;
+	opacity: 0.6;
+}
+img{
+	height: 600px;
+}
+.image-box{
+	position: relative;
+	color: white;
+}
+.text{
+	position: absolute;
+	color: white;
+	bottom: 230px;
+	left: 300px;
+	display: flex;
+	justify-content: space-between;
+	opacity: .9;
+}
+h3{
+	margin-right: 50px;
+	font-weight: bold;
+	font-size: 50px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Roboto', sans-serif;
+
+}
+.short-text{
+	margin-left: 330px;
+	font-size: 15px;
+	font-family: 'Roboto', sans-serif;
+}
+.social{
+	position: absolute;
+	bottom: 100px;
+	left: 50px;
+
+	
+}
+.social a{
+	color: red;
+	padding: 10px;
+	font-size: 20px;
+}
+.section{
+	margin: 50px;
+	display: flex;
+}
+.box1{
+	margin-right: 20px;
+
+}
+.round-text{
+margin-top: 100px;
+margin-left: 150px;
+margin-right: 150px;
+border: 2px solid red;
+text-align: center;
+border-radius: 150px;
+padding: 40px;
+font-weight: bold;
+
+}
+
+.box2, .box3{
+	flex: 2;
+}
+#setimage{
+	height: 300px;
+}
+.setcard{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 50px;
+}
